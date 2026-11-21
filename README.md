@@ -54,6 +54,21 @@ winget install ffmpeg
 python realtime_dictation.py
 ```
 
+## GUI (Simple)
+
+Windows icin basit bir arayuz:
+
+```powershell
+# Double-click: run_gui.bat
+.\winsper_env\Scripts\python gui.py
+```
+
+UI ile:
+- Microphone (input device) secimi
+- Model secimi (turbo dahil)
+- Auto-paste ac/kapat (Deskflow icin clipboard-only kullanabilirsin)
+- Start/Stop (surekli dinleme)
+
 1. Run the script
 2. Click where you want to type (3 second delay)
 3. Speak naturally
